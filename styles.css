@@ -41,16 +41,20 @@ a{
 .hero {
     display: flex;
     padding:  60px;
-    gap: 20px;
-    justify-content: space-between;
+    gap: 10px;
+    justify-content: space-around;
 }
-.img-place {
+.img-place{
     display: flex;
     background-color: rgb(119, 128, 128);
-    min-width: 400px;
+    max-width: 60%;
     align-items: center;
-    justify-content: center;
-    max-width: 600px;
+    max-height: 70%;
+}
+.img-hero {
+    width: 450px;
+    flex-shrink: 0;
+
 }
 .btn1,
 .btn2 {
@@ -83,20 +87,21 @@ a{
     padding: 20px;
 }
 .square {
-    padding: 60px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 5px rgb(22, 117, 241);
     margin: 0;
     border: 0;
+}
+.square img{
+    width: 120px;
+    border-radius: 10px;
 }
 .card {
     display: flex;
     text-align: center;
-    
+    align-items: center;
 }
 .card-text {
     color: black;
-    
+    text-align: start;
 }
 .card-square {
     display: flex;
