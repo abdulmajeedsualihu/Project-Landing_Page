@@ -11,6 +11,8 @@ body {
     border: 0;
     background-color: rgb(13, 35, 41);
     color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar {
@@ -70,7 +72,8 @@ a{
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center
+    justify-content: center;
+    padding: 50px;
 }
 .awesome {
     font-weight: bolder;
@@ -91,8 +94,9 @@ a{
     border: 0;
 }
 .square img{
-    width: 120px;
+    width: 250px;
     border-radius: 10px;
+    box-shadow: 0 0 0.5rem rgb(94, 149, 252);
 }
 .card {
     display: flex;
