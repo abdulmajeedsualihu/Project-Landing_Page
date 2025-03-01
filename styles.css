@@ -13,6 +13,7 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
+    flex-shrink: 0;
 }
 
 .navbar {
@@ -54,9 +55,7 @@ a{
     max-height: 70%;
 }
 .img-hero {
-    width: 450px;
-    flex-shrink: 0;
-
+    width: 420px;
 }
 .btn1,
 .btn2 {
@@ -67,13 +66,13 @@ a{
     color: white;
 }
 .information {
-    height: 270px;
+    height: 50%;
     background-color: white;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    padding: 50px;
+    padding: 20px;
 }
 .awesome {
     font-weight: bolder;
@@ -102,6 +101,7 @@ a{
     display: flex;
     text-align: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .card-text {
     color: black;
