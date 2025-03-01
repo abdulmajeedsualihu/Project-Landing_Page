@@ -41,13 +41,16 @@ a{
 .hero {
     display: flex;
     padding:  60px;
+    gap: 20px;
+    justify-content: space-between;
 }
 .img-place {
     display: flex;
     background-color: rgb(119, 128, 128);
-    min-width: 60%;
+    min-width: 400px;
     align-items: center;
     justify-content: center;
+    max-width: 600px;
 }
 .btn1,
 .btn2 {
